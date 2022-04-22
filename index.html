@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grocery Store</title>
+	<link rel="stylesheet" type="text/css" href="mystyles.css">
+</head>
+<body>
+<div class="parallax">
+	<div class="page-title"> Fresh Eats</div>
+</div>
+<div class=" menu" id = "sticky">
+		<ul class="menu-ul">
+			<a href="#" class="a-menu"><li>Home</li></a>
+			<a href="#deals" class="a-menu"><li>Deals</li></a>
+			<a href="#vegetables" class="a-menu"><li>Vegetables</li></a>
+			<a href="#fruits" class="a-menu"><li>Fruits</li></a>
+			<a href="#meat" class="a-menu"><li>Meats and Seafoods</li></a>
+			<a href="#staples" class="a-menu"><li>Staples</li></a>
+			<a href="#" class="a-menu"><li>Cart</li></a>
+		</ul>
+		<div class="search-box">
+			<form>
+				<input type="text" name="search" placeholder="Search.." class="search-input"/>
+				<button type = "submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg></button>
+			</form>
+			
+		</div>
+	</div>
+
+
+
+
+
+
+	<!-- HOME PAGE -->
+
+	<table align="center">
+	<tr>
+    <th>
+	<div class = "container">
+		<a href="#vegetables">
+			<div class="categories">
+				<img src="vegetables.jpg" class="item-image"/>
+				<div class="image-title">Vegetables</div>
+		    </div>
+	</div>
+    </th>
+    <th>
+	<div class = "container">
+		<a href="#fruits">
+			<div class="categories">
+				<img src="fruits.png" class="item-image"/>
+				<div class="image-title">Fruits</div>
+		    </div>
+	</div>
+    </th>
+    <th>
+	<div class = "container">
+		<a href="#meat">
+			<div class="categories">
+				<img src="meat.png" class="item-image"/>
+				<div class="image-title">Meat and Seafood</div>
+		    </div>
+	</div>
+    </th>
+    <th>
+	<div class = "container">
+		<a href="#deals">
+			<div class="categories">
+				<img src="heart.jpg" class="item-image"/>
+				<div class="image-title">Deals</div>
+		    </div>
+	</div>
+    </th>
+        <th>
+	<div class = "container">
+		<a href="#staples">
+			<div class="categories">
+				<img src="staples.jpg" class="item-image"/>
+				<div class="image-title">Staples</div>
+		    </div>
+	</div>
+    </th>
+    </tr>
+</table>
+
+<!--HOME PAGE ENDS -->
+
+
+
+
+
+
+
+<!-- DEAL BEGINS HERE -->
+<div class = "deals-container" id="deals">
+	<div class="parallax">
+		<div class="title">DEALS</div>
+	</div>
+
+
+<div class="deals">
+	Save 20% on main-purchase of Rs. 149 on vegetables<br/>
+	<button class="coupon-btn">Add Coupon</button>
+</div>
+<div class="deals">
+	Save 15% on main-purchase of Rs. 179 on fruits<br/>
+	<button class="coupon-btn">Add Coupon</button>
+</div>
+<div class="deals">
+	Save 10% on main-purchase of Rs.199 on Meat/Sea Food<br/>
+	<button class="coupon-btn">Add Coupon</button>
+</div>
+<div class="deals">
+	Save 5% on main-purchase of Rs.99 on Meat/Sea Food<br/>
+	<button class="coupon-btn">Add Coupon</button>
+</div>
+
+</div>
+<!--DEAL ENDS HERE -->
+
+
+
+
+
+
+
+
+<!--VEGETABLES BEGINS HERE-->
+<div class="deals-container" id = "vegetables">
+	<div class="parallax">
+		<div class="title">VEGETABLES</div>	
+	</div>
+<div class="items">
+	<div class="images">
+		<img src="carrots.webp" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Carrot</b>
+		<div class="item-select">
+			Price : Rs. 40/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="cauliflower.webp" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Cauliflower</b>
+		<div class="item-select">
+			Price : Rs. 35/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1 kg</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="brinjal.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Brinjal</b>
+		<div class="item-select">
+			Price : Rs. 40/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="cabbage.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Cabbage</b>
+		<div class="item-select">
+			Price : Rs. 25/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="potatoes.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Potatoes</b>
+		<div class="item-select">
+			Price : Rs. 22/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="tomatoes.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Tomatoes</b>
+		<div class="item-select">
+			Price : Rs. 40/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="beans.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Beans</b>
+		<div class="item-select">
+			Price : Rs. 80/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+</div>
+<!--VEGETABLES ENDS HERE-->
+
+
+
+
+
+
+
+
+<!--FRUITS STARTS HERE-->
+
+<div class="deals-container" id = "fruits">
+	<div class="parallax">
+		<div class="title">FRUITS</div>	
+	</div>
+<div class="items">
+	<div class="images">
+		<img src="apple.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Apple</b>
+		<div class="item-select">
+			Price : Rs. 220/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="banana.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Banana</b>
+		<div class="item-select">
+			Price : Rs. 45/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1 kg</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="guava.png" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Guava</b>
+		<div class="item-select">
+			Price : Rs. 44/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="mango.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Mango</b>
+		<div class="item-select">
+			Price : Rs. 99/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="muskmelon.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Muskmelon</b>
+		<div class="item-select">
+			Price : Rs. 40/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="orange.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Orange</b>
+		<div class="item-select">
+			Price : Rs. 70/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="watermelon.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Watermelon</b>
+		<div class="item-select">
+			Price : Rs. 130/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+</div>
+<!--FRUITS ENDS HERE-->
+
+
+
+
+
+<!--MEAT STARTS HERE-->
+<div class="deals-container" id = "meat">
+	<div class="parallax">
+		<div class="title">MEATS AND SEAFOODS</div>	
+	</div>
+<div class="items">
+	<div class="images">
+		<img src="chicken.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Chicken</b>
+		<div class="item-select">
+			Price : Rs. 200/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="mutton.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Mutton</b>
+		<div class="item-select">
+			Price : Rs. 800/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1 kg</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="fish.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Fish</b>
+		<div class="item-select">
+			Price : Rs. 150/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="prawn.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Prawn</b>
+		<div class="item-select">
+			Price : Rs. 300/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<!--MEAT ENDS HERE -->
+
+
+
+
+
+
+<!--STAPLES STARTS HERE-->
+<div class="deals-container" id = "staples">
+	<div class="parallax">
+		<div class="title">STAPLES</div>	
+	</div>
+<div class="items">
+	<div class="images">
+		<img src="butter.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Butter</b>
+		<div class="item-select">
+			Price : Rs. 220/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="ghee.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Ghee</b>
+		<div class="item-select">
+			Price : Rs. 45/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 ml</option>
+			<option>500 ml</option>
+			<option>750 ml</option>
+			<option>1 l</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="gingellyoil.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Gingelly Oil</b>
+		<div class="item-select">
+			Price : Rs. 44/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 ml</option>
+			<option>500 ml</option>
+			<option>750 ml</option>
+			<option>1 l</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="sunfloweroil.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Sunflower Oil</b>
+		<div class="item-select">
+			Price : Rs. 44/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+            <option>250 ml</option>
+			<option>500 ml</option>
+			<option>750 ml</option>
+			<option>1 l</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="rice.png" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Rice</b>
+		<div class="item-select">
+			Price : Rs. 99/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="salt.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Salt</b>
+		<div class="item-select">
+			Price : Rs. 40/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="sugar.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Sugar</b>
+		<div class="item-select">
+			Price : Rs. 70/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="wheatflour.png" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Wheat Flour</b>
+		<div class="item-select">
+			Price : Rs. 130/kg
+		</div>
+		<label> Qty:</label>
+		<select class="item-select">
+			<option>250 g</option>
+			<option>500 g</option>
+			<option>750 g</option>
+			<option>1000 g</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+</div>
+<!--STAPLES ENDS HERE-->
+<!-- FOOTER STARTS HERE -->
+<div class = "parallax1">
+	<div class="footer">
+		<div class="quick-links">
+			<div> Locations </div>
+			<ul>
+				<li><a href="" class="a-links">Trichy</li>
+				<li><a href="" class="a-links">Chennai</li>
+			    <li><a href="" class="a-links">Coimbatore</li>
+			</ul>
+		</div>
+
+		<div class="quick-links">
+			<div> Careers </div>
+			<ul>
+				<li><a href="" class="a-links">Delivery Agents</li>
+				<li><a href="" class="a-links">Packing Staffs</li>
+			    <li><a href="" class="a-links">Shelf Keepers</li>
+			</ul>
+		</div>
+
+		<div class="quick-links">
+			<div> Quick Links </div>
+			<ul>
+				<li><a href="" class="a-links">Contact Us</li>
+				<li><a href="" class="a-links">FAQ</li>
+			    <li><a href="" class="a-links">Help Desk</li>
+			</ul>
+		</div>
+
+	</div>
+</div>
+
+<!--FOOTER ENDS HERE -->
+</body>
+</html>
